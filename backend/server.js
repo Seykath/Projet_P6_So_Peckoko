@@ -37,7 +37,6 @@ const errorHandler = error => {
     }
 };
 
-
 const server = http.createServer(app); //  Création du serveur du package HTTP qui prends en argument la fonction app.
 
 server.on('error', errorHandler);

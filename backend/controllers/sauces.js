@@ -1,5 +1,4 @@
 // Fichier regroupant la logique des différentes fonctions.
-
 const Sauce = require('../models/sauces');
 const fs = require('fs');
 
@@ -101,7 +100,6 @@ exports.likeOneSauce = (req, res, next) => {
                     break;
                 default:
                     return res.status(500).json({ error });
-                    break;
             }
             Sauce.updateOne({ _id: req.params.id }, { ...sauceObject, _id: req.params.id })
                 .then(() => res.status(200).json({ message: 'Sauce liké !' }))
