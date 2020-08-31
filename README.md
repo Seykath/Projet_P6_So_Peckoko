@@ -9,7 +9,7 @@ Pour le dossier frontend effectuer les commandes suivantes dans le terminal :
 - npm install node-sass
 - ng serve
 
-Pour le dossier backend éffectuer les coommandes suivantes dans le terminal :
+Pour le dossier backend effectuer les commandes suivantes dans le terminal :
 
 - cd backend
 - cd npm install
