@@ -14,3 +14,6 @@ Pour le dossier backend éffectuer les coommandes suivantes dans le terminal :
 - cd backend
 - cd npm install
 - nodemon server
+
+
+Ouvrir une page HTML et dans l'url, ajoutez 'http://localhost:4200'.
